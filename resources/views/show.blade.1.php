@@ -9,7 +9,6 @@
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200;600&display=swap" rel="stylesheet">
 
-        
     </head>
     <body>
         <h1>Blog Name</h1>
@@ -17,9 +16,9 @@
             <div class='posts'>
             <h2 class='title'>{{ $post->title }}</h2>
             <p class='body'>{{ $post->body }}</p></p> 
+            <p class='updated_at'>{{ $post->updated_at }}</p>
             </div>
-          
-            
-        </div>
+        
+        <div class='back'>[<a href='/'>back</a>]</div>
     </body>
 </html>
